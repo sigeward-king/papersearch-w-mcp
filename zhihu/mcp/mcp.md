@@ -17,6 +17,24 @@ MCP的诞生非常自然，即和所有协议一样，如果我设计了一种�
 为了避免过多的细节，我们使用  <FastMCP> 包来快速实现 MCP Server
     （分）：
 
+为了能够运行mcp inspector我们需要下载一下node.js和一些插件
+
+### 首先我们需要安装相关依赖
+```bash
+sudo apt update && sudo apt install nodejs npm -y
+```
+
+
+### 
+```bash
+# 设定client 和 Server 的端口
+CLIENT_PORT=8080 SERVER_PORT=9000 npx @modelcontextprotocol/inspector mcp_project/research_server.py
+```
+![tool_result](tool_result.png "图最后的tool展示结果")
+
+
+
+
 ## MCP Client
     （总）：
 
