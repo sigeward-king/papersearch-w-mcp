@@ -4,6 +4,7 @@
 .env.development
 .env.production
 .env.test
+mcp_project/.env
 
 # OpenAI 和 Anthropic API 密钥相关文件
 openai_key.txt
