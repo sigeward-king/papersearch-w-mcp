@@ -5,7 +5,8 @@
 ## 前情提要：
     阅读时间预估15分钟-30分钟，涉及了如何获取Anthropic api 以及 如何构可以进行function call的agent，这里以一个可以查阅arxiv论文的chatbox。
 
-## 设计流程：
+## 架构设计以及流程图：
+![架构图](chatbox.png)
 
     tools design
 
